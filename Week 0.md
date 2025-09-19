@@ -16,7 +16,7 @@ This week focused on building the complete development environment required for 
 
 <table> <tr> <th>Tool</th> <th>Purpose</th> <th>Status</th> </tr> <tr> <td>⚡ Icarus Verilog + GTKWave</td> <td>Verilog simulation & waveform analysis</td> <td>✔️ Verified</td> </tr> <tr> <td>🔧 Yosys</td> <td>RTL Synthesis</td> <td>✔️ Verified</td> </tr> </table>
  Installation Highlights
-<details> <summary><b>Step-by-Step Setup (Click to Expand)</b></summary>
+ <summary><b>Step-by-Step Setup (Click to Expand)</b></summary>
 
 Yosys
  Built Yosys from source
@@ -61,7 +61,6 @@ sudo apt install gtkwave
 
 
 
-</details>
  Week 0 Milestone
 
 ✔️ Environment fully ready for SoC design flow
