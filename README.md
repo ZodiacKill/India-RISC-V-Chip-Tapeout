@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://img.icons8.com/color/452/india.png" width="60"/>
+  <br/>
+</p>
+
+
 # India-RISC-V-Chip-Tapeout
 Driving India's semiconductor journey with an open-source RISC-V chip tapeout. This project aims to foster collaboration and innovation in hardware design within the Indian academic and startup community. #OpenSourceHardware #RISCV #MakeInIndia
 
@@ -15,3 +21,8 @@ Tasks Completed
 
 * **Task 1:** Created this GitHub repository to document the entire learning journey.
 * **Task 2:** Successfully installed and verified the suite of required EDA tools on an Ubuntu 20.04+ machine.
+
+ <p align="center">
+  <img src="https://img.shields.io/badge/Made%20in-India-FF9933?style=for-the-badge&logo=india&logoColor=white" alt="Made in India"/>
+</p>
+
