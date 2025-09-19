@@ -1,76 +1,35 @@
 Week 0 — Environment Setup & Tool Installation
 
-This week focused on building the complete development environment required for the SoC design journey. From VM setup to installing a full open-source EDA toolchain, the system is now ready for RTL → GDSII flow .
+This week focused on building the complete development environment required for the SoC design journey. From VM setup to installing a full open-source EDA toolchain, the system is now ✅ ready for RTL → GDSII flow.
 
 System Requirements
-| Component           | Specification ✔️   |
-| ------------------- | ----------------- |
-| **OS**              | Ubuntu 20.04+     |
-| **CPU**             | 4 vCPUs           |
-| **RAM**             | 6 GB+             |
-| **Storage**         | 50 GB+ HDD        |
+<table> <tr> <th>Component</th> <th>Specification ✔️</th> </tr> <tr> <td> OS</td> <td><b>Ubuntu 20.04+</b></td> </tr> <tr> <td>⚡ CPU</td> <td>4 vCPUs</td> </tr> <tr> <td> RAM</td> <td>6 GB+</td> </tr> <tr> <td> Storage</td> <td>50 GB+ HDD</td> </tr> </table>
+ Tasks Completed
+<table> <tr> <th>Task</th> <th>Description</th> <th>Status</th> </tr> <tr> <td>📂 Repo & Docs</td> <td>Created GitHub repo + documented intro video summary</td> <td><img src="https://img.shields.io/badge/Done-✔️-brightgreen?style=flat-square"/></td> </tr> <tr> <td>🛠️ EDA Toolchain</td> <td>Installed + verified complete open-source flow (with snapshots)</td> <td><img src="https://img.shields.io/badge/Done-✔️-brightgreen?style=flat-square"/></td> </tr> </table>
+ Key Learnings
 
+ Hands-on experience with environment setup & dependency management for VLSI projects.
 
-| Task                  | Description                                                     | Status |
-| --------------------- | --------------------------------------------------------------- | ------ |
-| 📂 **Repo & Docs**    | Created GitHub repo + documented intro video summary            | ✔️ Done |
-| 🛠️ **EDA Toolchain** | Installed + verified complete open-source flow (with snapshots) | ✔️ Done |
+ Successfully installed & verified open-source EDA toolchain on Ubuntu VM.
 
-Key Learnings
-
-Gained hands-on experience in environment setup & dependency management for VLSI projects.
-
-Successfully installed and verified open-source EDA toolchain on Ubuntu VM.
-
-Established a robust base system to smoothly proceed with RTL → GDSII flow.
+ Built a robust base system to smoothly proceed with RTL → GDSII flow.
 
 ⚙️ Installed EDA Tools
-| Tool                         | Purpose                                    | Verification |
-| ---------------------------- | ------------------------------------------ | ------------ |
-| **Icarus Verilog + GTKWave** | Verilog simulation & waveform analysis     | ✔️            |
-| **Yosys**                    | RTL Synthesis                              | ✔️            |
-
-
-Installation Highlights
+<table> <tr> <th>Tool</th> <th>Purpose</th> <th>Status</th> </tr> <tr> <td>⚡ Icarus Verilog + GTKWave</td> <td>Verilog simulation & waveform analysis</td> <td>✔️ Verified</td> </tr> <tr> <td>🔧 Yosys</td> <td>RTL Synthesis</td> <td>✔️ Verified</td> </tr> </table>
+ Installation Highlights
 <details> <summary><b>Step-by-Step Setup (Click to Expand)</b></summary>
 
-1️ Yosys → Built from source for RTL synthesis.
+ Installed Icarus Verilog & GTKWave via APT
 
-commands-
-$ sudo apt-get update
-$ git clone https://github.com/YosysHQ/yosys.git
-$ cd yosys
-$ sudo apt install make (If make is not installed please install it)
-$ sudo apt-get install build-essential clang bison flex \
- libreadline-dev gawk tcl-dev libffi-dev git \
- graphviz xdot pkg-config python3 libboost-system-dev \
- libboost-python-dev libboost-filesystem-dev zlib1g-dev
-$ make config-gcc
-$ make
-$ sudo make install 
-
-<img width="1073" height="241" alt="image" src="https://github.com/user-attachments/assets/d3f767eb-c6ec-4cf1-bf81-a74009cebb3b" />
-
-2️ Icarus Verilog & GTKWave → Installed via APT for simulation & waveform viewing.
-
-commands-
-Steps to install iverilog
-sudo apt-get update
-sudo apt-get install iverilog
-<img width="996" height="771" alt="image" src="https://github.com/user-attachments/assets/7f33dda1-6c15-47b6-bbc8-e4e33786e31d" />
-
-Steps to install gtkwave
-sudo apt-get update
-sudo apt install gtkwave 
-<img width="1070" height="157" alt="image" src="https://github.com/user-attachments/assets/7cfcbc1d-7898-47de-a7ca-533c3e767eb2" />
-
-
+ Built Yosys from source
 
 </details>
  Week 0 Milestone
 
 ✔️ Environment fully ready for SoC design flow
 ✔️ GitHub repo + documentation prepared
-✔️ All tools tested & verified
+✔️ All EDA tools tested & verified
 
- Next Week (Week 1): RTL Design & Simulation Kickoff ⚡
+<p align="center"> <img src="https://img.shields.io/badge/Week%200-Completed-brightgreen?style=for-the-badge&logo=github"/> <img src="https://img.shields.io/badge/Next%20Step-RTL%20Design%20⚡-blue?style=for-the-badge"/> </p>
+
+🔜 Next Week (Week 1): RTL Design & Simulation Kickoff ⚡
