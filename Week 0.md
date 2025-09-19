@@ -3,7 +3,7 @@ Week 0 — Environment Setup & Tool Installation
 This week focused on building the complete development environment required for the SoC design journey. From VM setup to installing a full open-source EDA toolchain, the system is now ready for RTL → GDSII flow .
 
 System Requirements
-| Component           | Specification ✅   |
+| Component           | Specification ✔️   |
 | ------------------- | ----------------- |
 | **OS**              | Ubuntu 20.04+     |
 | **CPU**             | 4 vCPUs           |
