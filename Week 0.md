@@ -1,65 +1,48 @@
-📅 Week 0 — Environment Setup & Tool Installation
-This initial phase focused on preparing the complete software environment required for the SoC design journey.
+Week 0 — Environment Setup & Tool Installation
 
-Task	Description	Status
-Task 0	📂 Repository Setup — Initialized this GitHub repository to serve as the official project log.	✅ Done
-Task 1	🛠️ EDA Toolchain Installation — Installed the full suite of open-source tools for the RTL-to-GDSII flow, including Iverilog, GTKWave, Yosys, Magic, ngspice, and OpenLane.	✅ Done
+This week focused on building the complete development environment required for the SoC design journey. From VM setup to installing a full open-source EDA toolchain, the system is now ready for RTL → GDSII flow .
 
-Export to Sheets
-🌟 Key Learnings from Week 0
-Successfully installed and verified a complete open-source EDA toolchain on an Ubuntu VM.
+System Requirements
+| Component           | Specification ✅   |
+| ------------------- | ----------------- |
+| **OS**              | Ubuntu 20.04+     |
+| **CPU**             | 4 vCPUs           |
+| **RAM**             | 6 GB+             |
+| **Storage**         | 50 GB+ HDD        |
 
-Learned the intricacies of environment setup and dependency management for complex VLSI projects.
 
-Established a robust system ready for the upcoming RTL → GDSII flow experiments.
+| Task                  | Description                                                     | Status |
+| --------------------- | --------------------------------------------------------------- | ------ |
+| 📂 **Repo & Docs**    | Created GitHub repo + documented intro video summary            | ✅ Done |
+| 🛠️ **EDA Toolchain** | Installed + verified complete open-source flow (with snapshots) | ✅ Done |
 
-⚙️ Detailed Installation Commands
-<details>
-<summary>Click to view the step-by-step installation commands for each tool.</summary>
+Key Learnings
 
-Icarus Verilog (iverilog) & GTKWave
-Bash
+Gained hands-on experience in environment setup & dependency management for VLSI projects.
 
-sudo apt-get update
-sudo apt-get install iverilog
-sudo apt-get install gtkwave
-Yosys (Synthesis Tool)
-Bash
+Successfully installed and verified open-source EDA toolchain on Ubuntu VM.
 
-git clone https://github.com/YosysHQ/yosys.git
-cd yosys
-sudo apt-get install build-essential clang bison flex libreadline-dev gawk tcl-dev libffi-dev git graphviz xdot pkg-config python3 libboost-system-dev libboost-python-dev libboost-filesystem-dev zlib1g-dev
-make config-gcc
-make
-sudo make install
-Magic (VLSI Layout Tool)
-Bash
+Established a robust base system to smoothly proceed with RTL → GDSII flow.
 
-sudo apt-get install m4 tcsh csh libx11-dev tcl-dev tk-dev libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev
-git clone https://github.com/RTimothyEdwards/magic.git
-cd magic
-./configure
-make
-sudo make install
-ngspice (Circuit Simulator)
-Bash
+⚙️ Installed EDA Tools
+| Tool                         | Purpose                                    | Verification |
+| ---------------------------- | ------------------------------------------ | ------------ |
+| **Icarus Verilog + GTKWave** | Verilog simulation & waveform analysis     | ✅            |
+| **Yosys**                    | RTL Synthesis                              | ✅            |
 
-# Download tarball, then:
-tar -zxvf ngspice-37.tar.gz
-cd ngspice-37/release
-../configure --with-x --with-readline=yes --disable-debug
-make
-sudo make install
-OpenLane (Automated RTL to GDSII Flow)
-Bash
 
-# Install Docker first, then add user to docker group and reboot
-# For full Docker commands, refer to the official documentation.
-sudo usermod -aG docker $USER
-# --- REBOOT ---
-cd $HOME
-git clone https://github.com/The-OpenROAD-Project/OpenLane.git
-cd OpenLane
-make
-make test
-</details> 
+Installation Highlights
+<details> <summary><b>Step-by-Step Setup (Click to Expand)</b></summary>
+
+1️⃣ Icarus Verilog & GTKWave → Installed via APT for simulation & waveform viewing.
+
+2️⃣ Yosys → Built from source for RTL synthesis.
+
+</details>
+📌 Week 0 Milestone
+
+✔️ Environment fully ready for SoC design flow
+✔️ GitHub repo + documentation prepared
+✔️ All tools tested & verified
+
+🔜 Next Week (Week 1): RTL Design & Simulation Kickoff ⚡
