@@ -7,11 +7,11 @@ In this program, we learn to design a System-on-Chip (SoC) from basic RTL to GDS
 
 ---
 
-## 📅 Week 0: Environment Setup & EDA Tool Installation
+##  Week 0: Environment Setup & EDA Tool Installation
 
 This week focused on setting up the complete development environment, from creating the repository to installing all the necessary open-source EDA (Electronic Design Automation) tools required for the RTL-to-GDSII flow.
-
-### ✅ Tasks Completed
+<p align="center"> <img src="https://img.shields.io/badge/Week%200-Completed-brightgreen?style=for-the-badge&logo=linux" alt="Week 0 Completed Badge"/> <img src="https://img.shields.io/badge/Ubuntu-20.04+-orange?style=for-the-badge&logo=ubuntu" alt="Ubuntu Badge"/> <img src="https://img.shields.io/badge/Tools-Installed-blue?style=for-the-badge&logo=github" alt="Tools Badge"/> </p>
+Tasks Completed
 
 * **Task 1:** Created this GitHub repository to document the entire learning journey.
-* **Task 2:** Successfully installed and verified the suite of required EDA tools on an Ubuntu 20.04+ virtual machine.
+* **Task 2:** Successfully installed and verified the suite of required EDA tools on an Ubuntu 20.04+ machine.
