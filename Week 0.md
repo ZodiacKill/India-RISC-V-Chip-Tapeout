@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://img.icons8.com/color/452/india.png" width="60"/>
+  <br/>
+</p>
+
 Week 0   Environment Setup & Tool Installation
 
 This week focused on building the complete development environment required for the SoC design journey. From VM setup to installing a full open-source EDA toolchain, the system is now ready for RTL → GDSII flow.
@@ -70,3 +75,10 @@ sudo apt install gtkwave
 <p align="center"> <img src="https://img.shields.io/badge/Week%200-Completed-brightgreen?style=for-the-badge&logo=github"/> <img src="https://img.shields.io/badge/Next%20Step-RTL%20Design%20⚡-blue?style=for-the-badge"/> </p>
 
 🔜 Next Week (Week 1): RTL Design & Simulation Kickoff ⚡
+
+
+
+
+ <p align="center">
+  <img src="https://img.shields.io/badge/Made%20in-India-FF9933?style=for-the-badge&logo=india&logoColor=white" alt="Made in India"/>
+</p>
