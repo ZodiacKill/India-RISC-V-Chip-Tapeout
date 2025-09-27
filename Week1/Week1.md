@@ -92,6 +92,13 @@ Week 1 Milestone
 <img src="https://img.shields.io/badge/Netlist%20-Simulated-FF9933?style=for-the-badge&logo=india&logoColor=white" alt="Netlist Simulated"/>
 </p>
 
+ Key Concepts & Learnings
+Gate-Level Simulation (GLS): GLS is a critical verification step that ensures the synthesized gate-level netlist is functionally identical to the original RTL design. It validates the structural integrity of the synthesized circuit.
+
+Latency & Blocking Assignments: Be careful with blocking (=) and non-blocking (<=) assignments. A mismatch between simulation and synthesis can occur when using blocking assignments for sequential logic, potentially leading to incorrect hardware.
+
+Latch Inference: Incomplete if or case statements can cause a synthesis tool to infer an unintended latch. This is a common design flaw that should be avoided by using a default case or ensuring all conditions are covered.
+
 <p align="center">
 <img src="https://img.shields.io/badge/Made%20in-India-FF9933?style=for-the-badge&logo=india&logoColor=white" alt="Made in India"/>
 </p>
