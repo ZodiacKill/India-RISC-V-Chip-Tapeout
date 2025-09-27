@@ -9,7 +9,9 @@
 </p>
 
 Week 1: RTL-GLS
-This week focused on the core RTL → Gate-Level Synthesis (GLS) flow. We translated behavioral Verilog into a physical netlist and verified its functional correctness through simulation, confirming the design is ready for the next stages of the physical design journey.
+This week focused on the core RTL → Gate-Level Synthesis (GLS) flow.
+
+We translated behavioral Verilog into a physical netlist and verified its functional correctness through simulation, confirming the design is ready for the next stages of the physical design journey.
 
 📋 Tasks Completed
 <table>
